@@ -7,17 +7,17 @@
 # Calculations aren't useful unless we put the results somewhere 
 # The assignment operator stores the result into a variable
 
-two <- 1 + 1
+two = 1 + 1
 two
 
 # Once assigned, variables can be modified by re-assigning a new value to them
 
-two <- 1 + 3
-two
+x <- 1 + 3
+x
 
 # Variables can be removed from the workspace with rm
 # After removing two, calling it again would lead to an error 
-rm(two)
+rm(x)
 two
 
 # Variables can be reused in expressions to calculate new variables/outputs
