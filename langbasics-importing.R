@@ -23,7 +23,7 @@ two
 # Variables can be reused in expressions to calculate new variables/outputs
 var1 <- 5
 var2 <- 10
-var3 <- var1 + var2
+var3 <- var1 + var2 + var3
 
 # When assigning variables, nothing prints to the console 
 # Let's use the function print
